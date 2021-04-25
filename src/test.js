@@ -110,12 +110,9 @@ const suppliers = [
 //const items = ['banana', 'maça', 'tomate', 'a', 'aa', 'aaa', 'aaaa', 'aaaaa', 'aaaaaa', 'aaaaaaa', 'aaaaaaaa'];
 const items = ['banana', 'maça', 'tomate'];
 
-//console.log('i  s  array');
-
-
-
 let prices = {};
 
+let buffer = [];
 
 /**
  * @param item => current item index
@@ -125,21 +122,21 @@ let prices = {};
  * [supplier0, supplier1, ..., supplierN]
  */
 const selectItems = function (item, supplier, selectedSuppliers) {
-
-  // if (selectedSuppliers.length == items.length) {
-  //   //console.log(selectedSuppliers);
-  //   return selectedSuppliers;
-  // } else if (item == items.length || supplier == suppliers.length) {
-  //   if (selectedSuppliers.length != items.length) {
-  //     return NaN;
-  //   }
-  //   return selectedSuppliers;
-  // }
+  //test
+  let resp = `${item}  ${supplier}  [${selectedSuppliers}]`;
 
   if (item == items.length || supplier == suppliers.length) {
     if (selectedSuppliers.length != items.length) {
+      //test
+      buffer.push(
+        `${resp}
+  NaN`);
       return NaN;
     }
+
+    //test
+    buffer.push(`${resp}
+  [${selectedSuppliers}]`);
     return selectedSuppliers;
   }
 
@@ -152,8 +149,6 @@ const selectItems = function (item, supplier, selectedSuppliers) {
   // If not going to buy this item
   const nextItem = item + 1;
 
-  let resp = `${item}  ${supplier}  [${selectedSuppliers}]`;
-
   // Check if supplier has current item
   const itemName = items[item];
   if (suppliers[supplier].items[itemName] == null) {
@@ -161,7 +156,9 @@ const selectItems = function (item, supplier, selectedSuppliers) {
 
     //test
     const resposta = selectItems(item, nextSupplier, selectedSuppliers);
-    //.log(`${resp} \t${resposta}`);
+    //test
+    buffer.push(`${resp}
+  [${resposta}]`);
     return resposta;
   }
 
@@ -172,7 +169,9 @@ const selectItems = function (item, supplier, selectedSuppliers) {
     selectItems(item, nextSupplier, selectedSuppliers)
   );
 
-  console.log(`${resp} \t${resposta}`);
+  //test
+  buffer.push(`${resp}
+  [${resposta}]`);
   return resposta;
 };
 
@@ -234,3 +233,9 @@ const test = selectItems(0, 0, []);
 const price = totalPrice(test);
 
 console.log(`[${test}] -> ${price}`);
+
+
+for (let i = buffer.length - 1; i >= 0; i--) {
+  console.log(buffer[i]);
+  buffer.pop();
+}
