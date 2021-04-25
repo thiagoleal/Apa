@@ -43,12 +43,34 @@ const suppliers = [
     },
     'delivery': 13,
   },
+  {
+    'name': 'teste',
+    'items': {
+      'maça': 5,
+      'laranja': 3,
+      'banana': 6,
+      'tomate': 6,
+      'feijao': 11,
+      'camarao': 8,
+      'a': 10,
+      'aa': 10,
+      'aaa': 10,
+      'aaaa': 10,
+      'aaaaa': 10,
+      'aaaaaa': 10,
+      'aaaaaaa': 10,
+      'aaaaaaaa': 10,
+      'aaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+    },
+    'delivery': 13,
+  },
 ];
 
 // Items to buy
-const items = ['banana', 'maça', 'tomate'];
+const items = ['banana', 'maça', 'tomate', 'a', 'aa', 'aaa', 'aaaa', 'aaaaa', 'aaaaaa', 'aaaaaaa', 'aaaaaaaa'];
 
-console.log('i  s  array');
+//console.log('i  s  array');
 
 /**
  * @param item => current item index
@@ -81,6 +103,17 @@ const bestBuy = function (item, supplier, selectedSuppliers) {
 
   let resp = `${item}  ${supplier}  [${selectedSuppliers}]`;
 
+  // Check if supplier has current item
+  const itemName = items[item];
+  if (suppliers[supplier].items[itemName] == null) {
+    // If true, it can only go to next supplier
+
+    //test
+    const resposta = bestBuy(item, nextSupplier, selectedSuppliers);
+    //console.log(`${resp} \t${resposta}`);
+    return resposta;
+  }
+
   // If supplier has item it can que selected or not
 
   // Return best buy (smaller total price)
@@ -100,7 +133,7 @@ const bestBuy = function (item, supplier, selectedSuppliers) {
     bestBuy(item, nextSupplier, selectedSuppliers)
   );
 
-  console.log(`${resp} \t${resposta}`);
+  //console.log(`${resp} \t${resposta}`);
   return resposta;
 };
 
