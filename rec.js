@@ -1,3 +1,5 @@
+console.time("time");
+
 const suppliers = [
   {
     'name': 'Peruzzo',
@@ -62,15 +64,50 @@ const suppliers = [
       'aaaaaaaa': 10,
       'aaaaaaaaa': 10,
       'aaaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+    },
+    'delivery': 13,
+  },
+  {
+    'name': 'teste',
+    'items': {
+      'maça': 5,
+      'laranja': 3,
+      'banana': 6,
+      'tomate': 6,
+      'feijao': 11,
+      'camarao': 8,
+      'a': 10,
+      'aa': 10,
+      'aaa': 10,
+      'aaaa': 10,
+      'aaaaa': 10,
+      'aaaaaa': 10,
+      'aaaaaaa': 10,
+      'aaaaaaaa': 10,
+      'aaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
+      'aaaaaaaaaa': 10,
     },
     'delivery': 13,
   },
 ];
 
+
 // Items to buy
 const items = ['banana', 'maça', 'tomate', 'a', 'aa', 'aaa', 'aaaa', 'aaaaa', 'aaaaaa', 'aaaaaaa', 'aaaaaaaa'];
+//const items = ['banana', 'maça', 'tomate'];
 
-//console.log('i  s  array');
+
+let buffer = [];
 
 /**
  * @param item => current item index
@@ -79,20 +116,24 @@ const items = ['banana', 'maça', 'tomate', 'a', 'aa', 'aaa', 'aaaa', 'aaaaa', '
  *    item0  ,   item1  , ...,   itemN
  * [supplier0, supplier1, ..., supplierN]
  */
-const bestBuy = function (item, supplier, selectedSuppliers) {
+const selectItems = function (item, supplier, selectedSuppliers) {
+  //test
+  let resp = `${item}  ${supplier}  [${selectedSuppliers}]`;
 
-  if (selectedSuppliers.length == items.length) {
-    return totalPrice(selectedSuppliers);
-  } else if (item == items.length || supplier == suppliers.length) {
+  if (item == items.length || supplier == suppliers.length) {
     if (selectedSuppliers.length != items.length) {
+      //test
+      buffer.push(
+        `${resp}
+  NaN`);
       return NaN;
     }
-    return totalPrice(selectedSuppliers);
+
+    //test
+    buffer.push(`${resp}
+  [${selectedSuppliers}]`);
+    return selectedSuppliers;
   }
-
-
-  // If not going to buy this item
-  const nextItem = item + 1;
 
   // If going to buy this item
   const newSelectedSuppliers = [...selectedSuppliers];
@@ -100,8 +141,8 @@ const bestBuy = function (item, supplier, selectedSuppliers) {
 
   const nextSupplier = supplier + 1;
 
-
-  let resp = `${item}  ${supplier}  [${selectedSuppliers}]`;
+  // If not going to buy this item
+  const nextItem = item + 1;
 
   // Check if supplier has current item
   const itemName = items[item];
@@ -109,35 +150,31 @@ const bestBuy = function (item, supplier, selectedSuppliers) {
     // If true, it can only go to next supplier
 
     //test
-    const resposta = bestBuy(item, nextSupplier, selectedSuppliers);
-    //console.log(`${resp} \t${resposta}`);
+    const resposta = selectItems(item, nextSupplier, selectedSuppliers);
+    //test
+    buffer.push(`${resp}
+  [${resposta}]`);
     return resposta;
   }
 
-  // If supplier has item it can que selected or not
-
-  // Return best buy (smaller total price)
-
-  // return mininum(
-  //   // Going to buy this item -> go to next item with first supplier
-  //   bestBuy(nextItem, 0, newSelectedSuppliers),
-  //   // Not going to buy this item -> stay in this item with next supplier
-  //   bestBuy(item, nextSupplier, selectedSuppliers)
-  // );
-
-  //test
-  const resposta = mininum(
+  const resposta = minimum(
     // Going to buy this item -> go to next item with first supplier
-    bestBuy(nextItem, 0, newSelectedSuppliers),
+    selectItems(nextItem, 0, newSelectedSuppliers),
     // Not going to buy this item -> stay in this item with next supplier
-    bestBuy(item, nextSupplier, selectedSuppliers)
+    selectItems(item, nextSupplier, selectedSuppliers)
   );
 
-  //console.log(`${resp} \t${resposta}`);
+  //test
+  buffer.push(`${resp}
+  [${resposta}]`);
   return resposta;
 };
 
 const totalPrice = function (selectedSuppliers) {
+  if (!Array.isArray(selectedSuppliers)) {
+    return NaN;
+  }
+
   const uniqueSuppliers = selectedSuppliers.filter((v, i, a) => a.indexOf(v) === i);
 
   let deliveryFee = 0;
@@ -157,16 +194,27 @@ const totalPrice = function (selectedSuppliers) {
   return total;
 };
 
-const mininum = function (value1, value2) {
-  if (isNaN(value1) || value1 == null) {
-    return value2;
-  } else if (isNaN(value2) || value2 == null) {
-    return value1;
+const minimum = function (array1, array2) {
+  const price1 = totalPrice(array1);
+  const price2 = totalPrice(array2);
+
+  if (isNaN(price1) || price1 == null) {
+    return array2;
+  } else if (isNaN(price2) || price2 == null) {
+    return array1;
   }
 
-  return Math.min(value1, value2);
+  if (Math.min(price1, price2) == price1) {
+    return array1;
+  }
+
+  return array2;
 };
 
-const test = bestBuy(0, 0, []);
+const test = selectItems(0, 0, []);
 
-console.log(test);
+console.timeEnd("time");
+
+const price = totalPrice(test);
+
+console.log(`[${test}] -> ${price}`);

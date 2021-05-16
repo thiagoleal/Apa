@@ -1,0 +1,201 @@
+item,fornecedor,valor
+Açúcar,nacional,41
+Arroz,nacional,19
+Biscoitos,nacional,3
+Café,nacional,33
+Carnes,nacional,83
+Farinha,nacional,38
+Feijão,nacional,26
+Fermento,nacional,10
+Hortaliças,nacional,52
+Iogurte,nacional,24
+Leite,nacional,51
+Macarrão,nacional,12
+Margarina,nacional,13
+Molho de tomate,nacional,39
+Óleo,nacional,45
+Ovos,nacional,78
+Pães,nacional,50
+Queijo ralado,nacional,88
+Sal,nacional,22
+Temperos,nacional,10
+Água Sanitária,nacional,83
+Álcool em gel,nacional,74
+Amaciante,nacional,57
+Desinfetante,nacional,18
+Detergente,nacional,59
+Esponja de aço,nacional,90
+Esponja de pia,nacional,84
+Flanelas,nacional,78
+Inseticida,nacional,63
+Lustra-móveis,nacional,7
+Luvas plásticas,nacional,0
+Sabão em barra,nacional,83
+Sabão em pó,nacional,91
+Sacos de lixo,nacional,41
+Absorventes,nacional,79
+Água oxigenada,nacional,90
+Algodão,nacional,30
+Barbeador descartável,nacional,19
+Curativos,nacional,67
+Creme dental,nacional,50
+Desodorante,nacional,42
+Escova de dente,nacional,95
+Esparadrapo,nacional,63
+Fio dental,nacional,85
+Gaze,nacional,74
+Hastes flexíveis,nacional,56
+Papel higiênico,nacional,68
+Sabonete,nacional,53
+Shampoo,nacional,99
+Condicionador,nacional,25
+Fósforo,nacional,37
+Guardanapo de papel,nacional,20
+Lâmpadas,nacional,44
+Papel Alumínio,nacional,24
+Papel Filme,nacional,14
+Papel toalha,nacional,44
+Molho de tomate,peruzzo,50
+Óleo,peruzzo,64
+Ovos,peruzzo,65
+Pães,peruzzo,57
+Queijo ralado,peruzzo,84
+Sal,peruzzo,94
+Temperos,peruzzo,5
+Água Sanitária,peruzzo,76
+Álcool em gel,peruzzo,97
+Amaciante,peruzzo,63
+Desinfetante,peruzzo,55
+Detergente,peruzzo,41
+Esponja de aço,peruzzo,48
+Esponja de pia,peruzzo,25
+Flanelas,peruzzo,36
+Inseticida,peruzzo,30
+Lustra-móveis,peruzzo,53
+Luvas plásticas,peruzzo,3
+Sabão em barra,peruzzo,46
+Sabão em pó,peruzzo,17
+Sacos de lixo,peruzzo,61
+Absorventes,peruzzo,64
+Água oxigenada,peruzzo,19
+Algodão,peruzzo,62
+Barbeador descartável,peruzzo,12
+Curativos,peruzzo,66
+Creme dental,peruzzo,43
+Desodorante,peruzzo,86
+Escova de dente,peruzzo,83
+Esparadrapo,peruzzo,5
+Fio dental,peruzzo,70
+Gaze,peruzzo,70
+Hastes flexíveis,peruzzo,35
+Papel higiênico,peruzzo,29
+Sabonete,peruzzo,65
+Shampoo,peruzzo,10
+Condicionador,peruzzo,15
+Fósforo,peruzzo,97
+Guardanapo de papel,peruzzo,53
+Lâmpadas,peruzzo,79
+Papel Alumínio,peruzzo,92
+Papel Filme,peruzzo,31
+Papel toalha,peruzzo,11
+Papel Filme,peruzzo,46
+Açúcar,nicolini,47
+Arroz,nicolini,48
+Biscoitos,nicolini,49
+Café,nicolini,50
+Carnes,nicolini,51
+Farinha,nicolini,52
+Feijão,nicolini,53
+Fermento,nicolini,54
+Hortaliças,nicolini,55
+Iogurte,nicolini,56
+Leite,nicolini,57
+Macarrão,nicolini,58
+Margarina,nicolini,59
+Molho de tomate,nicolini,60
+Óleo,nicolini,61
+Ovos,nicolini,62
+Pães,nicolini,63
+Queijo ralado,nicolini,64
+Sal,nicolini,65
+Temperos,nicolini,66
+Água Sanitária,nicolini,67
+Álcool em gel,nicolini,68
+Amaciante,nicolini,69
+Desinfetante,nicolini,70
+Detergente,nicolini,71
+Esponja de aço,nicolini,72
+Esponja de pia,nicolini,73
+Flanelas,nicolini,74
+Inseticida,nicolini,75
+Lustra-móveis,nicolini,76
+Luvas plásticas,nicolini,77
+Sabão em barra,nicolini,78
+Sabão em pó,nicolini,79
+Sacos de lixo,nicolini,80
+Absorventes,nicolini,81
+Água oxigenada,nicolini,82
+Algodão,nicolini,83
+Barbeador descartável,nicolini,84
+Curativos,nicolini,85
+Creme dental,nicolini,86
+Desodorante,nicolini,87
+Escova de dente,nicolini,88
+Esparadrapo,nicolini,89
+Fio dental,nicolini,90
+Gaze,nicolini,91
+Hastes flexíveis,nicolini,92
+Papel higiênico,nicolini,93
+Sabonete,nicolini,94
+Shampoo,nicolini,95
+Condicionador,nicolini,96
+Fósforo,big,97
+Guardanapo de papel,big,98
+Lâmpadas,big,99
+Papel Alumínio,big,100
+Papel Filme,big,101
+Papel toalha,big,102
+Molho de tomate,big,103
+Óleo,big,104
+Ovos,big,105
+Pães,big,106
+Queijo ralado,big,107
+Sal,big,108
+Temperos,big,109
+Água Sanitária,big,110
+Álcool em gel,big,111
+Amaciante,big,112
+Desinfetante,big,113
+Detergente,big,114
+Esponja de aço,big,115
+Esponja de pia,big,116
+Flanelas,big,117
+Inseticida,big,118
+Lustra-móveis,big,119
+Luvas plásticas,big,120
+Sabão em barra,big,121
+Sabão em pó,big,122
+Sacos de lixo,big,123
+Absorventes,big,124
+Água oxigenada,big,125
+Algodão,big,126
+Barbeador descartável,big,127
+Curativos,big,128
+Creme dental,big,129
+Desodorante,big,130
+Escova de dente,big,131
+Esparadrapo,big,132
+Fio dental,big,133
+Gaze,big,134
+Hastes flexíveis,big,135
+Papel higiênico,big,136
+Sabonete,big,137
+Shampoo,big,138
+Condicionador,big,139
+Fósforo,big,140
+Guardanapo de papel,big,141
+Lâmpadas,big,142
+Papel Alumínio,big,143
+Papel Filme,big,144
+Papel toalha,big,145
+Papel Filme,big,146

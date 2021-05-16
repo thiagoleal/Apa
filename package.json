@@ -1,0 +1,24 @@
+{
+  "name": "apa",
+  "version": "1.0.0",
+  "description": "Repositório dedicado ao trabalho final da disciplina de Analise e Projeto de Algoritmos.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoleal/Apa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagoleal/Apa/issues"
+  },
+  "homepage": "https://github.com/thiagoleal/Apa#readme",
+  "dependencies": {
+    "csv-parse": "^4.15.4",
+    "csv-parser": "^3.0.0",
+    "node-dir": "^0.1.17"
+  }
+}

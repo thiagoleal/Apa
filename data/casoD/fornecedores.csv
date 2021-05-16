@@ -1,0 +1,201 @@
+item,fornecedor,valor
+Açúcar,nacional,52
+Arroz,nacional,2
+Biscoitos,nacional,96
+Café,nacional,52
+Carnes,nacional,70
+Farinha,nacional,11
+Feijão,nacional,79
+Fermento,nacional,13
+Hortaliças,nacional,37
+Iogurte,nacional,16
+Leite,nacional,94
+Macarrão,nacional,62
+Margarina,nacional,46
+Molho de tomate,nacional,17
+Óleo,nacional,23
+Ovos,nacional,26
+Pães,nacional,40
+Queijo ralado,nacional,27
+Sal,nacional,83
+Temperos,nacional,41
+Água Sanitária,nacional,67
+Álcool em gel,nacional,99
+Amaciante,nacional,98
+Desinfetante,nacional,83
+Detergente,nacional,84
+Açúcar,big,18
+Arroz,big,54
+Biscoitos,big,93
+Café,big,94
+Carnes,big,2
+Farinha,big,83
+Feijão,big,82
+Fermento,big,21
+Hortaliças,big,70
+Iogurte,big,66
+Leite,big,33
+Macarrão,big,90
+Margarina,big,15
+Molho de tomate,big,14
+Óleo,big,3
+Ovos,big,8
+Pães,big,85
+Queijo ralado,big,1
+Sal,big,8
+Temperos,big,64
+Água Sanitária,big,90
+Álcool em gel,big,17
+Amaciante,big,74
+Desinfetante,big,11
+Detergente,big,82
+Açúcar,peruzzo,34
+Arroz,peruzzo,84
+Biscoitos,peruzzo,89
+Café,peruzzo,51
+Carnes,peruzzo,86
+Farinha,peruzzo,71
+Feijão,peruzzo,81
+Fermento,peruzzo,86
+Hortaliças,peruzzo,53
+Iogurte,peruzzo,44
+Leite,peruzzo,24
+Macarrão,peruzzo,0
+Margarina,peruzzo,79
+Molho de tomate,peruzzo,65
+Óleo,peruzzo,22
+Ovos,peruzzo,75
+Pães,peruzzo,92
+Queijo ralado,peruzzo,1
+Sal,peruzzo,89
+Temperos,peruzzo,87
+Água Sanitária,peruzzo,27
+Álcool em gel,peruzzo,55
+Amaciante,peruzzo,24
+Desinfetante,peruzzo,52
+Detergente,peruzzo,49
+Açúcar,nicolini,74
+Arroz,nicolini,99
+Biscoitos,nicolini,8
+Café,nicolini,3
+Carnes,nicolini,1
+Farinha,nicolini,3
+Feijão,nicolini,93
+Fermento,nicolini,61
+Hortaliças,nicolini,4
+Iogurte,nicolini,8
+Leite,nicolini,62
+Macarrão,nicolini,52
+Margarina,nicolini,62
+Molho de tomate,nicolini,56
+Óleo,nicolini,85
+Ovos,nicolini,46
+Pães,nicolini,32
+Queijo ralado,nicolini,77
+Sal,nicolini,30
+Temperos,nicolini,38
+Água Sanitária,nicolini,33
+Álcool em gel,nicolini,4
+Amaciante,nicolini,93
+Desinfetante,nicolini,33
+Detergente,nicolini,51
+Açúcar,atacadao,20
+Arroz,atacadao,65
+Biscoitos,atacadao,18
+Café,atacadao,99
+Carnes,atacadao,45
+Farinha,atacadao,79
+Feijão,atacadao,93
+Fermento,atacadao,91
+Hortaliças,atacadao,76
+Iogurte,atacadao,73
+Leite,atacadao,12
+Macarrão,atacadao,9
+Margarina,atacadao,68
+Molho de tomate,atacadao,41
+Óleo,atacadao,1
+Ovos,atacadao,40
+Pães,atacadao,86
+Queijo ralado,atacadao,7
+Sal,atacadao,72
+Temperos,atacadao,85
+Água Sanitária,atacadao,45
+Álcool em gel,atacadao,45
+Amaciante,atacadao,18
+Desinfetante,atacadao,15
+Detergente,atacadao,96
+Açúcar,varejao,57
+Arroz,varejao,74
+Biscoitos,varejao,4
+Café,varejao,9
+Carnes,varejao,16
+Farinha,varejao,60
+Feijão,varejao,20
+Fermento,varejao,88
+Hortaliças,varejao,86
+Iogurte,varejao,69
+Leite,varejao,21
+Macarrão,varejao,12
+Margarina,varejao,96
+Molho de tomate,varejao,8
+Óleo,varejao,77
+Ovos,varejao,55
+Pães,varejao,64
+Queijo ralado,varejao,26
+Sal,varejao,50
+Temperos,varejao,21
+Água Sanitária,varejao,36
+Álcool em gel,varejao,72
+Amaciante,varejao,41
+Desinfetante,varejao,91
+Detergente,varejao,17
+Açúcar,dosul,30
+Arroz,dosul,10
+Biscoitos,dosul,2
+Café,dosul,57
+Carnes,dosul,77
+Farinha,dosul,9
+Feijão,dosul,21
+Fermento,dosul,69
+Hortaliças,dosul,3
+Iogurte,dosul,29
+Leite,dosul,78
+Macarrão,dosul,93
+Margarina,dosul,71
+Molho de tomate,dosul,27
+Óleo,dosul,47
+Ovos,dosul,95
+Pães,dosul,94
+Queijo ralado,dosul,0
+Sal,dosul,69
+Temperos,dosul,10
+Água Sanitária,dosul,44
+Álcool em gel,dosul,13
+Amaciante,dosul,17
+Desinfetante,dosul,27
+Detergente,dosul,72
+Açúcar,comprebem,20
+Arroz,comprebem,55
+Biscoitos,comprebem,9
+Café,comprebem,44
+Carnes,comprebem,68
+Farinha,comprebem,47
+Feijão,comprebem,85
+Fermento,comprebem,59
+Hortaliças,comprebem,45
+Iogurte,comprebem,87
+Leite,comprebem,29
+Macarrão,comprebem,2
+Margarina,comprebem,12
+Molho de tomate,comprebem,62
+Óleo,comprebem,15
+Ovos,comprebem,37
+Pães,comprebem,23
+Queijo ralado,comprebem,39
+Sal,comprebem,19
+Temperos,comprebem,98
+Água Sanitária,comprebem,62
+Álcool em gel,comprebem,49
+Amaciante,comprebem,81
+Desinfetante,comprebem,86
+Detergente,comprebem,90

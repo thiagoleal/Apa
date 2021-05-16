@@ -1,0 +1,103 @@
+item,fornecedor,valor
+Açúcar,nacional,41
+Açúcar,peruzzo,1
+Arroz,nacional,19
+Biscoitos,nacional,3
+Café,nacional,33
+Carnes,nacional,83
+Carnes,peruzzo,1
+Farinha,nacional,38
+Feijão,nacional,26
+Fermento,nacional,10
+Hortaliças,nacional,52
+Iogurte,nacional,24
+Leite,nacional,51
+Macarrão,nacional,12
+Margarina,nacional,13
+Molho de tomate,nacional,39
+Óleo,nacional,45
+Ovos,nacional,78
+Pães,nacional,50
+Queijo ralado,nacional,88
+Sal,nacional,22
+Temperos,nacional,10
+Água Sanitária,nacional,83
+Álcool em gel,nacional,74
+Amaciante,nacional,57
+Desinfetante,nacional,18
+Detergente,nacional,59
+Esponja de aço,nacional,1
+Esponja de pia,nacional,84
+Flanelas,nacional,78
+Inseticida,nacional,63
+Lustra-móveis,nacional,7
+Luvas plásticas,nacional,0
+Sabão em barra,nacional,83
+Sabão em pó,nacional,91
+Sacos de lixo,nacional,41
+Absorventes,nacional,79
+Água oxigenada,nacional,90
+Algodão,nacional,30
+Barbeador descartável,nacional,19
+Curativos,nacional,67
+Creme dental,nacional,50
+Desodorante,nacional,42
+Escova de dente,nacional,95
+Esparadrapo,nacional,63
+Fio dental,nacional,85
+Gaze,nacional,74
+Hastes flexíveis,nacional,56
+Papel higiênico,nacional,68
+Sabonete,nacional,53
+Shampoo,nacional,99
+Condicionador,nacional,25
+Fósforo,nacional,37
+Guardanapo de papel,nacional,20
+Lâmpadas,nacional,44
+Papel Alumínio,nacional,24
+Papel Filme,nacional,14
+Papel toalha,nacional,44
+Molho de tomate,peruzzo,1
+Óleo,peruzzo,1
+Ovos,peruzzo,1
+Pães,peruzzo,1
+Queijo ralado,peruzzo,1
+Sal,peruzzo,1
+Temperos,peruzzo,1
+Água Sanitária,peruzzo,76
+Álcool em gel,peruzzo,97
+Amaciante,peruzzo,63
+Desinfetante,peruzzo,55
+Detergente,peruzzo,41
+Esponja de aço,peruzzo,48
+Esponja de pia,peruzzo,25
+Flanelas,peruzzo,36
+Inseticida,peruzzo,30
+Lustra-móveis,peruzzo,53
+Luvas plásticas,peruzzo,3
+Sabão em barra,peruzzo,46
+Sabão em pó,peruzzo,17
+Sacos de lixo,peruzzo,61
+Absorventes,peruzzo,64
+Água oxigenada,peruzzo,19
+Algodão,peruzzo,62
+Barbeador descartável,peruzzo,12
+Curativos,peruzzo,66
+Creme dental,peruzzo,43
+Desodorante,peruzzo,86
+Escova de dente,peruzzo,83
+Esparadrapo,peruzzo,5
+Fio dental,peruzzo,70
+Gaze,peruzzo,70
+Hastes flexíveis,peruzzo,35
+Papel higiênico,peruzzo,29
+Sabonete,peruzzo,65
+Shampoo,peruzzo,10
+Condicionador,peruzzo,15
+Fósforo,peruzzo,97
+Guardanapo de papel,peruzzo,53
+Lâmpadas,peruzzo,79
+Papel Alumínio,peruzzo,92
+Papel Filme,peruzzo,31
+Papel toalha,peruzzo,11
+Papel Filme,nacional,46
